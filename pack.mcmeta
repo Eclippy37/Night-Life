@@ -1,0 +1,24 @@
+{
+    "pack": {
+        "min_format": 121,
+        "max_format": 121,
+        "description": [
+            {
+                "text": "☽ Night Life",
+                "color": "gold"
+            },
+            {
+                "text": "\na0.0.1",
+                "color": "green"
+            },
+            {
+                "text": " - ",
+                "color": "dark_green"
+            },
+            {
+                "text": "Eclipse37_",
+                "color": "light_purple"
+            }
+        ]
+    }
+}

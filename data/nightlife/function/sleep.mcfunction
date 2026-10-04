@@ -1,0 +1,1 @@
+execute unless entity @a[nbt={SleepTimer:0s},team=!lives_0,team=!watcher,team=!zombie,gamemode=survival] run say Hello world
