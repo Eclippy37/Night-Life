@@ -1,15 +1,15 @@
 # Time Add
 time add 1t
 
-# Fail
+# Boogey Fail/Cure
 execute unless score #BoogeyKills nightlife matches 2.. run function nightlife:boogey/fail
+execute if score #BoogeyKills nightlife matches 2.. run function nightlife:boogey/cure
+
+# Difficulty
+execute if score #Nights nightlife matches 1.. run difficulty easy
+
+# Time Rate
+execute if score #Nights nightlife matches 1.. run time rate 0.75
 
 # Dates
-function nightlife:misc/dates/november
-schedule function nightlife:misc/dates/october 20t
-schedule function nightlife:misc/dates/november 40t
-schedule function nightlife:misc/dates/october 50t
-schedule function nightlife:misc/dates/november 60t
-schedule function nightlife:misc/dates/october 65t
-schedule function nightlife:misc/dates/november 70t
-schedule function nightlife:misc/dates/october 75t
+function nightlife:misc/dates

@@ -1,3 +1,6 @@
+# Clear Boogeymen
+boogeyman clear
+
 # Boogeyman Randomise
 boogeyman randomize
 

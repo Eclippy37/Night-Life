@@ -21,7 +21,7 @@ gamerule players_sleeping_percentage 370
 #scoreboard players reset #Nights
 
 # Difficulty
-difficulty hard
+#difficulty hard
 
 # Time Rate
 time rate 0.5

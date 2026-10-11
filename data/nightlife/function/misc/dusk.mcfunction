@@ -5,7 +5,13 @@ time add 1t
 execute if score #Nights nightlife matches 1.. run scoreboard players add #Nights nightlife 1
 
 # Boogey Start
-function nightlife:boogey/start
+execute if score #Nights nightlife matches 1.. run function nightlife:boogey/start
 
 # Gamerule
-gamerule minecraft:advance_time false
+execute unless score #Nights nightlife matches 1.. run gamerule minecraft:advance_time false
+
+# Difficulty
+execute if score #Nights nightlife matches 1.. run difficulty hard
+
+# Time Rate
+execute if score #Nights nightlife matches 1.. run time rate 0.5

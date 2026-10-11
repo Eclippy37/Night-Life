@@ -18,13 +18,13 @@ gamerule minecraft:spread_vines true
 gamerule players_sleeping_percentage 370
 
 # Difficulty
-difficulty hard
+#difficulty hard
 
 # Time Rate
-time rate 0.5
+#time rate 0.5
 
 # Time Set
-time set 0
+#time set 0
 
 # Effects
 effect give @a minecraft:saturation 1 255 true
