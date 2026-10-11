@@ -19,6 +19,7 @@ team modify lives_1 seeFriendlyInvisibles false
 team modify lives_2 seeFriendlyInvisibles false
 team modify lives_3 seeFriendlyInvisibles false
 team modify lives_4 seeFriendlyInvisibles false
+team modify watcher color gold
 
 team add enchanter "Enchanting Table"
 team modify enchanter color dark_purple

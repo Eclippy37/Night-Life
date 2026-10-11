@@ -17,6 +17,9 @@ gamerule minecraft:spread_vines true
 # Special Gamerules
 gamerule players_sleeping_percentage 370
 
+# Difficulty
+difficulty hard
+
 # Time Rate
 time rate 0.5
 
