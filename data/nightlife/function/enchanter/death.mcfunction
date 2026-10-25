@@ -1,5 +1,5 @@
 # Summon
-summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:enchanting_table",components:{enchantment_glint_override:true,rarity:epic}},Age:-32768,Invulnerable:true,Team:enchanter,Glowing:true,PickupDelay:6}
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:enchanting_table",components:{enchantment_glint_override:true,rarity:epic}},Age:-32768,Invulnerable:true,Team:enchanter,Glowing:true,PickupDelay:1}
 
 # Clear Item
 clear @s minecraft:enchanting_table 1

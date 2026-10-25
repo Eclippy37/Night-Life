@@ -1,0 +1,2 @@
+# Tellraw Chat
+tellraw @a [{obfuscated:false,color:white,text:"<"},{obfuscated:true,color:dark_red,text:"The Gamemaster"},{obfuscated:false,color:white,text:"> "},{obfuscated:false,color:white,text:"thanks to your unity in the face of betrayal."}]

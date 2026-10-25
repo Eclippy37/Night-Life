@@ -11,7 +11,7 @@ gamerule minecraft:spawn_phantoms false
 scoreboard objectives add nightlife dummy
 
 # Time Rate
-time rate 0.5
+#time rate 0.5
 
 # Teams
 team modify lives_0 seeFriendlyInvisibles false

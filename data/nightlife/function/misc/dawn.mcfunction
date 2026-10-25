@@ -9,7 +9,12 @@ execute if score #BoogeyKills nightlife matches 2.. run function nightlife:booge
 execute if score #Nights nightlife matches 1.. run difficulty easy
 
 # Time Rate
-execute if score #Nights nightlife matches 1.. run time rate 0.75
+execute unless score #NightsLeft nightlife matches 0 if score #Nights nightlife matches 1.. run time rate 0.75
+execute if score #NightsLeft nightlife matches 0 if score #Nights nightlife matches 1.. run time rate 0.25
 
 # Dates
-function nightlife:misc/dates
+execute unless score #NightsLeft nightlife matches 0 run function nightlife:misc/dates
+execute unless score #NightsLeft nightlife matches 0 run function nightlife:finale/start
+
+# Remove NightsLeft scoreboard
+execute if score #NightsLeft nightlife matches 1.. run scoreboard players remove #NightsLeft nightlife 1
